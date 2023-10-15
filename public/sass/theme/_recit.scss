@@ -1,0 +1,71 @@
+/*LISTE RECIT*/
+
+
+.input-search{
+    border-radius: 5px;
+    border: none;
+}
+
+.button-search{
+    background-color:#fcd39e;
+    border:1px solid $black;
+    border-radius:5px;
+    font-family:'goudy', sans-serif;
+    position:relative;
+    &:hover{
+        background-color:#f8c37f;
+    }
+}
+
+
+
+
+
+
+/*DETAIL RECIT*/
+
+.rec{
+    background-color:rgb(225, 158, 6, 0.3);
+    color:$black;
+    position:relative;
+    border-radius:15px;
+    padding:2px;
+    margin:auto;
+    border: 1px solid peru;
+
+    .rec_par{
+        background-color:rgb(225, 158, 6, 0);
+        width:90%;
+        position:relative;
+        border-radius:15px;
+        padding:2px;
+        margin:auto;
+    }
+    
+    .button_return{
+        padding-top: 15px;
+        margin:auto;
+        position:relative;
+        align-items:center;
+        display:flex;
+        background-color:rgb(20, 121, 162,0.5);
+        width:25%;
+        border-radius:20px;
+        justify-content: center;
+        border:1px solid rgb(20, 121, 162, 0);
+    }
+    
+#comm{
+    background-color:peru;
+    position:relative;
+    width:98%;
+    margin:auto;
+    padding:2px;
+    border-radius:20px;
+    border:1px solid darkgrey;
+}
+
+
+}
+
+ 

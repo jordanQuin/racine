@@ -1,0 +1,64 @@
+// /app/Views/resclaves/view.php ajouter un container pour tous le fichier div.container
+// dans le header rajouter un link vers commun.css et theme.css
+// ajouter le fichier package.json
+//
+
+.tprinc{
+    font-size:67px;
+}
+
+#acc{
+    color:black;
+    text-decoration:underline;
+    font-style:oblique;
+    &:hover{
+        font-size:22px;
+        text-decoration:none;
+        font-style:oblique;
+    }
+    
+}
+
+
+#trya{
+    text-decoration:none;
+}
+
+
+#sidebar-toggle {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+@media print {
+    #sidebar-toggle { display: none; }
+}
+
+table {
+    border: medium solid #000000;
+    }
+
+
+
+
+
+
+.esc {
+    right:25%;
+    top:0;
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.esc h5 {
+    margin: 0 0 5px;
+    color: #777;
+}
+

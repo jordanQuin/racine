@@ -1,0 +1,18 @@
+footer{
+    background-color:#a0512db9;
+    padding: 15px 0;
+    #lienfoot{
+        font-family: "goudy", sans-serif;
+        font-size: 1.3rem;
+        color:rgb(0, 0, 0);
+        padding: 15px 30px;
+        text-decoration: none;
+        &:hover{
+            background-color: peru;
+            border-radius: 10px;
+        }
+    }
+    
+}
+
+

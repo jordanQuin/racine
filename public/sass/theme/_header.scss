@@ -1,0 +1,148 @@
+.navbar{
+    padding: 10px 20px;
+    background-color: #a0512db9;
+    font-family: "goudy", sans-serif;
+    .navbar-brand{
+        color:$black;
+        padding: 15px 30px;
+        &:hover{
+            color:$black;
+            background-color: antiquewhite;
+            border-radius:5px;
+        }
+    }   
+    .language {
+        position: absolute;
+        right: 5%;
+      }
+  
+      .language-link {
+          margin-right: 10px; /* Espacement entre les liens */
+          text-decoration: none; /* Supprimer la décoration de texte */
+          padding: 5px 10px; /* Ajouter un peu de rembourrage pour un meilleur aspect */
+          border: 1px solid #ccc; /* Ajouter une bordure */
+          border-radius: 5px; /* Coins arrondis */
+          color: #000; /* Couleur du texte au survol */
+      }
+  
+      .language-link:hover {
+          background-color: #ccc; /* Couleur de fond au survol */
+          color: #000; /* Couleur du texte au survol */
+      }
+  
+      .language-link-active {
+          background-color: #ccc; /* Couleur de fond pour le français */
+      } 
+}
+
+
+// format telephone
+
+
+#menu_mobile_container {
+    z-index: 999;
+    position: fixed;
+    left: -100vw;
+    width: 100vw;
+    height: 100vh;
+    top: 100px;
+    background-color: $white;
+    transition: left 0.3s ease;   
+
+    .navbar_mobile{
+        top: 0;
+        left: 0;
+        position: fixed;
+        height: 100px;
+        width: 100%;
+        background-color:  #a0512d;
+    .burgermobile{
+        position: relative;
+        display: flex;
+        justify-content: end;
+        .ham1 {
+            top: 5px;
+            position: relative;
+            z-index: 9999;
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+            transition: transform 400ms;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        
+            path {
+                stroke-width: 2px;
+            }
+        }
+        
+        .line {
+            fill: none;
+            transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+            stroke: $white;
+            stroke-width: 5.5;
+            stroke-linecap: round;
+        }
+        
+        .ham1 .top {
+            stroke-dasharray: 40 139;
+        }
+        
+        .ham1 .middle {
+            transition-property: stroke-width, stroke-dasharray;
+            transition-duration: 400ms;
+            transition-delay: 200ms;
+        }
+        
+        .ham1 .bottom {
+            stroke-dasharray: 40 180;
+        }
+        
+        .ham1.active .top {
+            stroke-dashoffset: -45px;
+        }
+        
+        .ham1.active .middle {
+            transition-delay: 0ms;
+            transition-duration: 0ms;
+            stroke-width: 0;
+            stroke-dasharray: 0;
+        }
+        
+        .ham1.active .bottom {
+            stroke-dashoffset: -45px;
+        }
+    }    
+    }
+    .contenu_menu_mobile{
+        display: grid;
+        text-align: center  ;
+        a{
+            font-size: 1.3rem;
+            margin-top: 40px;
+            color: $black;
+            text-decoration: none;
+        }
+        hr{
+            margin-top: 5Spx;
+        }
+        .language{
+            margin-top: 40px;
+            a{
+                margin: 0 20px;
+                font-size: 1.3rem;
+                padding: 15px 20px;
+                background-color: $light-grey ;
+                border-radius: 5px;
+                transition-duration: 0.5s;
+                &:hover{
+                    background-color: $black;
+                    color: $white;
+                    transition-duration: 0.5s;
+                }
+            }
+        }
+    }
+}
+

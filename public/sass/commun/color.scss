@@ -1,0 +1,133 @@
+.black,
+.has-black-color,
+.hover-black-color:hover,
+.hover-black-color:hover p,
+.hover-black-color:hover path
+{
+	color: $black;
+	fill:$black; 
+	a{
+		color: $black;
+		fill: $black;
+	}
+}
+.bg-black,
+.has-black-background-color,
+.hover-black-background-color:hover{
+	background-color: $black;
+}
+.border-black{
+	border-color: $black ;
+}
+
+.green,
+.has-green-color,
+.hover-green-color:hover,
+.hover-green-color:hover p,
+.hover-green-color:hover path
+{
+	color: $green;
+	fill:$green; 
+	a{
+		color: $green;
+		fill: $green;
+	}
+}
+.bg-green,
+.has-green-background-color,
+.hover-green-background-color:hover{
+	background-color: $green;
+}
+.border-green{
+	border-color: $green ;
+}
+
+.blue,
+.has-blue-color,
+.hover-blue-color:hover,
+.hover-blue-color:hover p,
+.hover-blue-color:hover path
+{
+	color: $blue;
+	fill:$blue; 
+	a{
+		color: $blue;
+		fill: $blue;
+	}
+}
+.bg-blue,
+.has-blue-background-color,
+.hover-blue-background-color:hover{
+	background-color: $blue;
+}
+.border-blue{
+	border-color: $blue ;
+}
+
+.white,
+.has-white-color,
+.hover-white-color:hover,
+.hover-white-color:hover p,
+.hover-white-color:hover path
+{
+	color: $white;
+	fill:$white; 
+	a{
+		color: $white;
+		fill: $white;
+	}
+}
+.bg-white,
+.has-white-background-color,
+.hover-white-background-color:hover{
+	background-color: $white;
+}
+.border-white{
+	border-color: $white ;
+}
+
+.light-blue,
+.has-light-blue-color,
+.hover-light-blue-color:hover,
+.hover-light-blue-color:hover p,
+.hover-light-blue-color:hover path
+{
+	color: $light-blue;
+	fill:$light-blue; 
+	a{
+		color: $light-blue;
+		fill: $light-blue;
+	}
+}
+.bg-light-blue,
+.has-light-blue-background-color,
+.hover-light-blue-background-color:hover{
+	background-color: $light-blue;
+}
+.border-light-blue{
+	border-color: $light-blue ;
+}
+
+.grey,
+.has-grey-color,
+.hover-grey-color:hover,
+.hover-grey-color:hover p,
+.hover-grey-color:hover path
+{
+	color: $grey;
+	fill: $grey; 
+	a{
+		color: $grey;
+		fill: $grey;
+	}
+}
+.bg-grey,
+.has-grey-background-color,
+.hover-grey-background-color:hover{
+	background-color: $grey;
+}
+.border-grey{
+	border-color: $grey ;
+}
+
+

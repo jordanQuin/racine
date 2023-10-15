@@ -1,0 +1,33 @@
+$black: #000000;
+$green: #20A238;
+$blue: #2E4C9B;
+$white: #FFFFFF;
+$light-blue: #1ba4b6;
+$grey: #555;
+$light-grey : #777;
+$orange : #ff7800;
+
+
+@font-face {
+    font-family: "goudy";
+    src: local("goudy");
+    src: url("./../../css/Goudy.otf") format("opentype");
+}
+
+h1{
+    color:#a44e26b9;
+    text-align: center;
+    font-family: "goudy", sans-serif;
+}
+
+h3{
+    color:rgb(73, 73, 73);
+    font-family: "goudy", sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+p{
+    font-family: "goudy", sans-serif;
+    font-size:20px;
+}

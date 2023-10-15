@@ -1,0 +1,28 @@
+{
+    "name": "codeigniter4/framework",
+    "type": "project",
+    "description": "The CodeIgniter framework v4",
+    "homepage": "https://codeigniter.com",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-intl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "laminas/laminas-escaper": "^2.9",
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "kint-php/kint": "^5.0.1",
+        "codeigniter/coding-standard": "^1.5",
+        "fakerphp/faker": "^1.9",
+        "friendsofphp/php-cs-fixer": "3.13.0",
+        "mikey179/vfsstream": "^1.6",
+        "nexusphp/cs-config": "^3.6",
+        "phpunit/phpunit": "^9.1",
+        "predis/predis": "^1.1 || ^2.0"
+    },
+    "scripts": {
+        "sass": "sass --watch ./public/sass/theme.scss:./public/css/theme.css ./public/sass/commun.scss:./public/css/commun.css --style compressed"
+    }
+}
